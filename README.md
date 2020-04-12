@@ -43,18 +43,22 @@ Download and install the packages listed
 * ggplot2
 * wordcloud
 
-Use the Customer API key, Consumer API secret key, Access token and Access token secret obtained in the nre app created on Twitter Developer Apps in the "Twitter Access Authentication" cell.
+Use the Customer API key, Consumer API secret key, Access token and Access token secret obtained from the app created on Twitter Developer for "Twitter Access Authentication".
 ```
+# Twitter Access Authentication
+
 consumer_key <- 'Customer API key here'
 consumer_secret <- 'Customer API secret key here'
 access_token <- 'Access token here'
 access_secret <- 'Access token secret here'
 ```
 
-Choose the topic you'd like to analyse. in the "Fetch tweets" cell,
+Choose the topic you'd like to analyse.
 ```
+# Fetch tweets
+
 tweets <- searchTwitter("#topic", n=1000,lang = "en")
 ```
-Replace "topic" with the topic you chose, "n" or the number of tweets related to the topic to be downloaded is set to a 1000 and "lang" or language is set to "English". Parameters "n" and "lang" are changeable.
+In the "Fetch tweets" cell, replace "topic" with the topic you chose, "n" or the number of tweets related to the topic to be downloaded is set to a 1000 and "lang" or language is set to "English". Parameters "n" and "lang" are changeable.
 
 Run the cells to view the sentiment graph.
