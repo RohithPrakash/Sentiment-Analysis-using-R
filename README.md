@@ -43,7 +43,7 @@ Download and install the packages listed
 * ggplot2
 * wordcloud
 
-Use the Customer API key, Consumer API secret key, Access token and Access token secret obtained from the app created on Twitter Developer for "Twitter Access Authentication".
+Use the Consumer API key, Consumer API secret key, Access token and Access token secret obtained from the app created on Twitter Developer for "Twitter Access Authentication".
 ```
 # Twitter Access Authentication
 
