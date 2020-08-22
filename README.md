@@ -1,6 +1,8 @@
 # Sentiment Analysis using R
 Sentiment Analysis using Tweets. The tweets (related to a topic/hashtag) used are no more than 7 days old. 
 
+Click [here](https://sentysis.shinyapps.io/Sentysis/ "Sentysis") for demo.
+
 ## Prerequisites
 
 ### Install R
