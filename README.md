@@ -46,7 +46,7 @@ Download and install the packages listed
 * wordcloud
 
 Use the Consumer API key, Consumer API secret key, Access token and Access token secret obtained from the app created on Twitter Developer for "Twitter Access Authentication".
-```{r}
+```R
 # Twitter Access Authentication
 
 consumer_key <- 'Customer API key here'
@@ -56,7 +56,7 @@ access_secret <- 'Access token secret here'
 ```
 
 Choose the topic you'd like to analyse.
-```{r}
+```R
 # Fetch tweets
 
 tweets <- searchTwitter("#topic", n=1000,lang = "en")
